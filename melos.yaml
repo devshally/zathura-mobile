@@ -1,0 +1,7 @@
+# Change this name to your own.
+name: custom_mono_repo
+
+# '*' is the root of the repository.
+packages:
+  - utilities/**
+  - '*'
