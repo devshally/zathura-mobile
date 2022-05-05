@@ -78,7 +78,6 @@ class StorageImpl implements Storage {
   Future<String?> getUserType() async {
     final openBox = await Hive.openBox(userBox);
     final value = await openBox.get(userTypeKey);
-    // log(value.toString());
     await openBox.close();
     return value;
   }
