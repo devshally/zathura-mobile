@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/utilities/core/melos_core.iml" filepath="$PROJECT_DIR$/utilities/core/melos_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilities/storage/melos_storage.iml" filepath="$PROJECT_DIR$/utilities/storage/melos_storage.iml" />
       <module fileurl="file://$PROJECT_DIR$/melos_custom_mono_repo.iml" filepath="$PROJECT_DIR$/melos_custom_mono_repo.iml" />
     </modules>
   </component>
