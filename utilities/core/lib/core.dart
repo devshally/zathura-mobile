@@ -17,6 +17,11 @@ export 'package:core/ui/app_ui.dart';
 export 'package:core/usecase/usecase.dart';
 export 'package:core/util/show_bottom_nav.dart';
 export 'package:core/util/size.dart';
+export 'package:core/ui/bottom_nav/bottom_nav_bone.dart';
+export 'package:core/ui/bottom_nav/bottom_nav_item.dart';
+export 'package:core/ui/bottom_nav/nav_cubit.dart';
+export 'package:core/ui/bottom_nav/resolver/nav_injection_module.dart';
+export 'package:core/ui/bottom_nav/resolver/nav_resolver.dart';
 
 export 'package:get_it/get_it.dart';
 export 'package:dartz/dartz.dart' hide State, Task;
