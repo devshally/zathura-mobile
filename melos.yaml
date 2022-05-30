@@ -1,7 +1,18 @@
-# Change this name to your own.
 name: custom_mono_repo
 
-# '*' is the root of the repository.
 packages:
   - utilities/**
+  - zathura/**
   - '*'
+
+scripts:
+  analyze: melos exec -- flutter analyze
+  format: melos exec -- flutter format .
+  get: melos exec -- flutter pub get
+  upgrade: melos exec -- flutter pub upgrade --major-versions
+  unittest: 
+    run: melos exec -- flutter test
+    select-package:
+      dir-exists:
+        - test
+      scope: "*interface*"

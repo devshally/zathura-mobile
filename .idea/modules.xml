@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/utilities/firebase/melos_firebase.iml" filepath="$PROJECT_DIR$/utilities/firebase/melos_firebase.iml" />
       <module fileurl="file://$PROJECT_DIR$/utilities/network/melos_network.iml" filepath="$PROJECT_DIR$/utilities/network/melos_network.iml" />
       <module fileurl="file://$PROJECT_DIR$/utilities/storage/melos_storage.iml" filepath="$PROJECT_DIR$/utilities/storage/melos_storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zathura/melos_zathura.iml" filepath="$PROJECT_DIR$/zathura/melos_zathura.iml" />
       <module fileurl="file://$PROJECT_DIR$/melos_custom_mono_repo.iml" filepath="$PROJECT_DIR$/melos_custom_mono_repo.iml" />
     </modules>
   </component>
